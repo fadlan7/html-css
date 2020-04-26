@@ -61,11 +61,12 @@
 textarea {
     outline: none;
     border: none;
+    position: relative;
 }
 
 input {
 	outline: none;
-	border: none;
+    border: none;
 }
 
 .contact-container {
@@ -87,6 +88,7 @@ input {
   position: relative;
   border-bottom: 2px solid #adadad;
   margin-bottom: 37px;
+  z-index: 1;
 }
 
 .contact-wrapper {
@@ -124,7 +126,7 @@ input.input {
 }
 
 .contact-form {
-    width: 44%;
+    width: 390px;
 }
 
 .contact-img {
