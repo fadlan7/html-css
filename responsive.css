@@ -93,3 +93,48 @@
         }
     }
 }
+
+/* [Responsive Untuk Contac/Message] */
+@media (max-width: 1200px) {
+    .contact-img {
+      width: 33.5%;
+    }
+  
+    .contact-form {
+      width: 44%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .contact-container {
+      padding: 90px 80px 88px 90px;
+    }
+  
+    .contact-img {
+      width: 35%;
+    }
+  
+    .contact-form {
+      width: 55%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 90px 80px 88px 80px;
+    }
+  
+    .contact-img {
+      display: none;
+    }
+  
+    .contact-form {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contact-container {
+      padding: 90px 15px 88px 15px;
+    }
+  }
