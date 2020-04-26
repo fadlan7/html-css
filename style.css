@@ -157,6 +157,58 @@ input.input {
 }
 
 
+/*top-wrapper*/
+.top-wrapper {
+    background-color: #F5F5F5;
+    padding-top: 100px;
+    background-size: cover;
+    height:300px;
+}
+
+.container h1 {
+  font-family:poppins-bold;
+  font-size:30px;
+  text-align: center;
+  color:black;
+  opacity: 0.5;
+  letter-spacing: 5px;
+}
+
+.container h2 {
+  font-family: poppins-bold;
+  text-align: center;
+  font-size:30px;
+  color:black;
+  opacity: 0.5;
+  letter-spacing:5px;
+  padding-top:20px;
+  padding-bottom:20px;  
+}
+
+.container p {
+  font-family: sans-serif;
+  float:left;
+  padding:30px 20px;
+  color:black;
+  text-align: center;
+}
+
+.container p:hover {
+    background-color: #808080;
+}
+
+.container {
+  width:1170px;
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:auto;
+  margin-right:auto; 
+}
+
+.nama {
+    display: flex;
+    justify-content: center;
+}
 
 /*FOOTER*/
 footer {
