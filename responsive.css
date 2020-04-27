@@ -140,7 +140,7 @@
     .nama {
         width: 50%;
         font-size: 12px;
-        display: :flex;
+        display: flex;
         justify-content: center;
     }
 }
