@@ -193,10 +193,6 @@ input.input {
   text-align: center;
 }
 
-.container p:hover {
-    background-color: #808080;
-}
-
 .container {
   width:1170px;
   padding-left:15px;
