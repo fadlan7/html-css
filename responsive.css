@@ -92,6 +92,15 @@
       transform: translateX(0);
     }
   }
+  .facebook{
+    margin-bottom: 20px;
+  }
+  .main{
+  height: 900px;
+  }
+  .container{
+    height: 1900px;
+  }
 }
 
 /* responsive untuk top-wrapper*/
@@ -222,7 +231,7 @@ h1 {
     h1 {
         font-size: 30px;
 	}
-	
+
 	.gallery li {
 		margin-bottom: 10px;
 	}
