@@ -145,6 +145,117 @@
     }
 }
 
+/* Responsive Main Content*/
+
+@media (max-width: 670px) {
+.container {
+    width: 100%;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+
+.main {
+    width: 100%;
+}
+
+.gallery li {
+	margin-bottom: 10px;
+}
+
+.overlay {
+	width: 0;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0);
+	z-index: 9999;
+	transition: .8s;
+	padding: 100px 0;
+}
+
+.overlay:target {
+	width: auto;
+	height: auto;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,.7);
+}
+
+p {
+    text-align: center;
+}
+
+.overlay img {
+	max-height: 30%;
+	display: inline-block;
+	padding-left: 10%;
+
+}
+
+.profil {
+	color: #ddd;
+	letter-spacing: 3px;
+	max-height: 100%;
+	float: right;
+	padding-right: 50%;
+	text-align: left;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 2px 2px 2px grey;
+}
+
+}
+@media (max-width: 1000px) {
+
+    .container {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 30px;
+	}
+	
+	.gallery li {
+		margin-bottom: 10px;
+	}
+
+.overlay {
+	width: 0;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0);
+	z-index: 9999;
+	transition: .8s;
+	padding: 100px 0;
+}
+
+.overlay:target {
+	width: auto;
+	height: auto;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,.7);
+}
+
+
+.overlay img {
+	max-height: 50%;
+	display: inline-block;
+	padding-left: 30%;
+}
+
+    }
 /* [Responsive Untuk Contac/Message] */
 @media (max-width: 1200px) {
   .contact-img {
