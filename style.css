@@ -241,7 +241,7 @@ h1 {
 	height: 450px;
 	font-family: 'branda', "roboto", sans-serif;
     background-color: rgba(200, 200, 200, 0.425);
-
+    padding-top: 20px;
 }
 
 .container {

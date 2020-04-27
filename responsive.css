@@ -97,9 +97,10 @@
   }
   .main{
   height: 900px;
+  padding-bottom: 20px;
   }
   .container{
-    height: 1900px;
+    min-height: 800px;
   }
 }
 
